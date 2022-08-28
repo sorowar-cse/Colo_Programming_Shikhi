@@ -18,7 +18,7 @@ nav {
   /* display: flex; */
   height: 90vh;
   justify-content: space-around;
-  background-image: url('img/banner1.jpg');
+  background-image: url('img/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
