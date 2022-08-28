@@ -10,33 +10,34 @@
 #navbarNavDropdown {
     justify-content: right;
 }
-nav {
- position: fixed;
- top: 0;
-}
-.banner {
-  /* display: flex; */
-  height: 90vh;
-  justify-content: space-around;
-  background-image: url('img/banner.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+
+
+/* HOME SECTION CSS CODE START HERE */
+#home{
+  height: 90vh;  
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-
-.banner-text {
-    text-align: center;
+.banner-text h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  animation: text-animation 1s;
 }
-
-#chk {
-    position: relative;
+.banner-text p{
+  font-size: 1rem;
+  color: #003f5c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-#Head-Instructor {
-    display: flex;
-    justify-content: space-around;
+.brand-title{
+  color: #ff6361
 }
+.banner-img img{
+  width: 100%;
+  height: 100%;
+}
+/* HOME SECTION CSS CODE END HERE */
 
 .pic img {
     height: 500px;
