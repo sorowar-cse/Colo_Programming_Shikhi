@@ -1,192 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colo Programming Shikhi</title>
-    <link rel="shortcut icon" href="img/logo/2.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo/2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
-
-        <!-- Navbar......... -->
-        <nav class="navbar navbar-expand-lg bg-light"><i class="fa-solid fa-display-code"></i>
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="img/logo/2.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Students</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Courses
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Competitive Programming Basic with C</a></li>
-                                <li><a class="dropdown-item" href="#">Competitive Programming Beginner (C++)</a></li>
-                                <li><a class="dropdown-item" href="#">Data Structure (Upcomming)</a></li>
-                                <li><a class="dropdown-item" href="#">Web Development Basic (Upcomming)</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Admission
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Overview</a></li>
-                                <li><a class="dropdown-item" href="#">Admission Time/ Fall</a></li>
-                                <li><a class="dropdown-item" href="#">Competitive Programming Basic with C</a></li>
-                                <li><a class="dropdown-item" href="#">Competitive Programming Beginner (C++)</a></li>
-                                <li><a class="dropdown-item" href="#">Data Structure (Upcomming)</a></li>
-                                <li><a class="dropdown-item" href="#">Web Development Basic (Upcomming)</a></li>
-                                <li><a class="dropdown-item" href="#">Admission Process</a></li>
-                                <li><a class="dropdown-item" href="#">Financial Aid</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Batches
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Batch- 01 (CP Basic)</a></li>
-                                <li><a class="dropdown-item" href="#">Batch- 02 (CP Basic)</a></li>
-                                <li><a class="dropdown-item" href="#">Batch- 03 (CP Basic) (Running)</a></li>
-                                <li><a class="dropdown-item" href="#">Batch- 01 (CP Beginner) (Running)</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Insrtructors
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Head Insrtructor</a></li>
-                                <li><a class="dropdown-item" href="#">Insrtructor- 01</a></li>
-                                <li><a class="dropdown-item" href="#">Insrtructor- 02</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+      <!-- Navbar......... -->
+      <nav class="navbar navbar-expand-lg">
+        <i class="fa-solid fa-display-code"></i>
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/logo/2.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Students</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Competitive Programming Basic with C</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Competitive Programming Beginner (C++)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Data Structure (Upcomming)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Web Development Basic (Upcomming)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Admission
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Admission Time/ Fall</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Competitive Programming Basic with C</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Competitive Programming Beginner (C++)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Data Structure (Upcomming)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Web Development Basic (Upcomming)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Admission Process</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Financial Aid</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Batches
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Batch- 01 (CP Basic)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Batch- 02 (CP Basic)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Batch- 03 (CP Basic) (Running)</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Batch- 01 (CP Beginner) (Running)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Insrtructors
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Head Insrtructor</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Insrtructor- 01</a></li>
+                  <li><a class="dropdown-item" href="#">Insrtructor- 02</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section id="home">
-            <div class="container">
-                <div class="row">
-                        <div class="col-md-6">
-                            <div class="banner-text">
-                               <h1>Welcome to <span class="brand-title">Colo Programming Shikhi </span></h1>
-                               <p>We are a leading online learning platform for the world's best programmers.
-                                   We offer courses in various programming languages, web development, data
-                                   science, artificial intelligence, cloud computing, and many more.</p>
-                               <a href="#" class="btn btn-primary">Get Started</a>
-                           </div>
-                       </div>
-                       <div class="col-md-6">
-                           <div class="banner-image">
-                               <img src="img/programming.gif" alt="">
-                           </div>
-                    </div>
+      <section id="home">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="banner-text">
+                  <h1>
+                    Welcome to
+                    <span class="brand-title">চলো Programming শিখি </span>
+                  </h1>
+                  <p>
+                    We are a leading online learning platform for the world's
+                    best programmers. We offer courses in various programming
+                    languages, web development, data science, artificial
+                    intelligence, cloud computing, and many more.
+                  </p>
+                  <a href="#" class="btn btn-primary">Get Started</a>
                 </div>
+              </div>
+              <div class="col-md-6">
+                <div class="banner-image">
+                  <img src="img/programming.gif" alt=""  class="img-fluid ms-md-5 ps-md-5"/>
+                </div>
+              </div>
             </div>
-            
-        </section>
+          </div>
+      </section>
     </main>
 
     <section id="team">
-    <ul class="one">
-                <li class="transition">
-                <div class="wrapper"> <img class="transition" src="img/mine/120X120 Resize.png">
-                    <ul class="social">
-                    <li>Young artist from Barcelona. She hates Comic Sans. <br>
-                        Find her on:</li>
-                    <li class="transition"><a href="https://twitter.com/SOROwar_Mahabub"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="transition"><a href="https://www.facebook.com/sorowar.cse/"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li class="transition"><a href="https://www.linkedin.com/in/sorowar-cse/"><i class="fa-brands fa-linkedin"></i></a></li>
-                    </ul>
-                    <span class="transition">
-                    <h3>Sorowar Mahabub<em>CEO & Founder || Head Insrtructor</em></h3>
-                    <img src="http://dooreight.com/codepen/people/more.svg"> </span> </div>
-                </li>
-                <li class="transition">
-                <div class="wrapper"> <img class="transition" src="http://dooreight.com/codepen/people/img_02.png">
-                    <ul class="social">
-                    <li>Best lorem dolor guy from Detroit. Loves Helvetica. <br>
-                        Find him on:</li>
-                    <li class="transition"><a href="https://www.facebook.com"><img src="http://dooreight.com/codepen/people/twitter.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/behance.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/facebook.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/skype.svg"></a></li>
-                    </ul>
-                    <span class="transition">
-                    <h3>Johan Van Font <em>Front end developer</em></h3>
-                    <img src="http://dooreight.com/codepen/people/more.svg"> </span> </div>
-                </li>
-                <li class="transition">
-                <div class="wrapper"> <img class="transition" src="http://dooreight.com/codepen/people/img_03.png">
-                    <ul class="social">
-                    <li>Founder of Lorem dolor web site. Loves Verdana. <br>
-                        Find him on:</li>
-                    <li class="transition"><a href="https://www.facebook.com"><img src="http://dooreight.com/codepen/people/twitter.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/behance.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/facebook.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/skype.svg"></a></li>
-                    </ul>
-                    <span class="transition">
-                    <h3>Johan Van Font <em>Front end developer</em></h3>
-                    <img src="http://dooreight.com/codepen/people/more.svg"> </span> </div>
-                </li>
-                <li class="transition">
-                <div class="wrapper"> <img class="transition" src="http://dooreight.com/codepen/people/img_04.png">
-                    <ul class="social">
-                    <li>Times New Roman but in love with Verdana Bold. <br>
-                        Find him on:</li>
-                    <li class="transition"><a href="https://www.facebook.com"><img src="http://dooreight.com/codepen/people/twitter.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/behance.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/facebook.svg"></a></li>
-                    <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/skype.svg"></a></li>
-                    </ul>
-                    <span class="transition">
-                    <h3>Johan Van Font <em>Front end developer</em></h3>
-                    <img src="http://dooreight.com/codepen/people/more.svg"> </span> </div>
-                </li>
+      <ul class="one">
+        <li class="transition">
+          <div class="wrapper">
+            <img class="transition" src="img/mine/120X120 Resize.png" />
+            <ul class="social">
+              <li>
+                Young artist from Barcelona. She hates Comic Sans. <br />
+                Find her on:
+              </li>
+              <li class="transition">
+                <a href="https://twitter.com/SOROwar_Mahabub"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="transition">
+                <a href="https://www.facebook.com/sorowar.cse/"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li class="transition">
+                <a href="https://www.linkedin.com/in/sorowar-cse/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
             </ul>
+            <span class="transition">
+              <h3>Sorowar Mahabub<em>CEO & Founder || Head Insrtructor</em></h3>
+              <img src="http://dooreight.com/codepen/people/more.svg" />
+            </span>
+          </div>
+        </li>
+        <li class="transition">
+          <div class="wrapper">
+            <img
+              class="transition"
+              src="http://dooreight.com/codepen/people/img_02.png"
+            />
+            <ul class="social">
+              <li>
+                Best lorem dolor guy from Detroit. Loves Helvetica. <br />
+                Find him on:
+              </li>
+              <li class="transition">
+                <a href="https://www.facebook.com"
+                  ><img src="http://dooreight.com/codepen/people/twitter.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/behance.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/facebook.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/skype.svg"
+                /></a>
+              </li>
+            </ul>
+            <span class="transition">
+              <h3>Johan Van Font <em>Front end developer</em></h3>
+              <img src="http://dooreight.com/codepen/people/more.svg" />
+            </span>
+          </div>
+        </li>
+        <li class="transition">
+          <div class="wrapper">
+            <img
+              class="transition"
+              src="http://dooreight.com/codepen/people/img_03.png"
+            />
+            <ul class="social">
+              <li>
+                Founder of Lorem dolor web site. Loves Verdana. <br />
+                Find him on:
+              </li>
+              <li class="transition">
+                <a href="https://www.facebook.com"
+                  ><img src="http://dooreight.com/codepen/people/twitter.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/behance.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/facebook.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/skype.svg"
+                /></a>
+              </li>
+            </ul>
+            <span class="transition">
+              <h3>Johan Van Font <em>Front end developer</em></h3>
+              <img src="http://dooreight.com/codepen/people/more.svg" />
+            </span>
+          </div>
+        </li>
+        <li class="transition">
+          <div class="wrapper">
+            <img
+              class="transition"
+              src="http://dooreight.com/codepen/people/img_04.png"
+            />
+            <ul class="social">
+              <li>
+                Times New Roman but in love with Verdana Bold. <br />
+                Find him on:
+              </li>
+              <li class="transition">
+                <a href="https://www.facebook.com"
+                  ><img src="http://dooreight.com/codepen/people/twitter.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/behance.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/facebook.svg"
+                /></a>
+              </li>
+              <li class="transition">
+                <a href="#"
+                  ><img src="http://dooreight.com/codepen/people/skype.svg"
+                /></a>
+              </li>
+            </ul>
+            <span class="transition">
+              <h3>Johan Van Font <em>Front end developer</em></h3>
+              <img src="http://dooreight.com/codepen/people/more.svg" />
+            </span>
+          </div>
+        </li>
+      </ul>
     </section>
-
-</body>
-
+  </body>
 </html>

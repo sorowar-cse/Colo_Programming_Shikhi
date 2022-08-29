@@ -1,3 +1,7 @@
+/* goole font link */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500&family=Hind+Siliguri:wght@400;500;600&display=swap');
+
+
 * {
     margin: 0px;
     padding: 2px;
@@ -16,14 +20,18 @@
 #home{
   height: 90vh;  
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
 }
 .banner-text h1{
   font-size: 3rem;
   font-weight: bolder;
   text-transform: uppercase;
+  /* font-family: 'Anek Bangla', sans-serif; */
+  font-family: 'Hind Siliguri', sans-serif;
   animation: text-animation 1s;
+  -webkit-animation: text-animation 1s;
 }
 .banner-text p{
   font-size: 1rem;
