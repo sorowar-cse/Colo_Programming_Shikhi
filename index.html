@@ -1,312 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colo Programming Shikhi</title>
-    <link rel="shortcut icon" href="img/logo/2.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <header>
-      <!-- Navbar......... -->
-      <nav class="navbar navbar-expand-lg">
-        <i class="fa-solid fa-display-code"></i>
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/logo/Logo.gif" alt="" width="100" height="100"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Students</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Courses
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Competitive Programming Basic with C</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Competitive Programming Beginner (C++)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Data Structure (Upcomming)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Web Development Basic (Upcomming)</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Admission
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Overview</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Admission Time/ Fall</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Competitive Programming Basic with C</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Competitive Programming Beginner (C++)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Data Structure (Upcomming)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Web Development Basic (Upcomming)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Admission Process</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Financial Aid</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Batches
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Batch- 01 (CP Basic)</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Batch- 02 (CP Basic)</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Batch- 03 (CP Basic) (Running)</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Batch- 01 (CP Beginner) (Running)</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Insrtructors
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Head Insrtructor</a>
-                  </li>
-                  <li><a class="dropdown-item" href="#">Insrtructor- 01</a></li>
-                  <li><a class="dropdown-item" href="#">Insrtructor- 02</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colo Programming Shikhi</title>
+  <link rel="shortcut icon" href="img/logo/2.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body class="gradient-background">
+  <header>
+    <!-- Navbar......... -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <i class="fa-solid fa-display-code"></i>
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/logo/Logo.gif" alt="" width="100" height="100" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Students</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Competitive Programming Basic with C</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Competitive Programming Beginner (C++)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Data Structure (Upcomming)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Web Development Basic (Upcomming)</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Admission
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Admission Time/ Fall</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Competitive Programming Basic with C</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Competitive Programming Beginner (C++)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Data Structure (Upcomming)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Web Development Basic (Upcomming)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Admission Process</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Financial Aid</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Batches
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Batch- 01 (CP Basic)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Batch- 02 (CP Basic)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Batch- 03 (CP Basic) (Running)</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Batch- 01 (CP Beginner) (Running)</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Insrtructors
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Head Insrtructor</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Insrtructor- 01</a></li>
+                <li><a class="dropdown-item" href="#">Insrtructor- 02</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main>
+  <main>
 
 
-   
-      <!-- Home section -->
-      <section id="home">
-        <div class="container">
-          <div class="row">
-              <div class="col-md-6">
-                <div class="banner-text">
-                  <h1>
-                    Welcome to </h1>
-                    <h1>
-                    <span class="brand-title">চলো Programming শিখি </span>
-                  </h1>
-                  <p>
-                    We are a leading online learning platform for the world's
-                    best programmers. We offer courses in various programming
-                    languages, web development and many more.
-                  </p>
-                  <a href="#" class="btn btn-primary">Get Started</a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="banner-image">
-                  <img src="img/programming.gif" alt=""  class="img-fluid ms-md-5 ps-md-5"/>
-                </div>
-              </div>
+
+    <!-- Home section -->
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="banner-text">
+              <h2>Welcome to </h2>
+              <h1>
+                <span class="brand-title">চলো,<br>Programming শিখি</span>
+              </h1>
+              <p>
+                We are a leading online learning platform for the world's
+                best programmers. We offer courses in various programming
+                languages, web development and many more.
+              </p>
+              <a href="#" class="btn btn-primary">Get Started</a>
             </div>
           </div>
-          
-      </section>
+          <div class="col-md-6">
+            <div class="banner-image">
+              <img src="img/programming.gif" alt="" class="img-fluid ms-md-5 ps-md-5" />
+            </div>
+          </div>
+        </div>
+      </div>
 
-     
-       
-        
-    </main>
+    </section>
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center">We have everything <br> you need to learn Programming</h1>
+        <p class="text-center">Choose your topic from our vast library to get started</p>
+        <div class="row">
+          <div class="col-sm-4 col-6">
+            <div class="service-overview">
+              <img src="img/Icon/LIve Class.svg" alt="">
+              <h1>Live Classes</h1>
+              <p>oUR live classes help you maintain your routine</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="service-overview">
+              <img src="img/Icon/Rercorded Video lecture.svg" alt="">
+              <h1>Recorded Video lectures</h1>
+              <p>Learn at your own pace from our recorded videos</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="service-overview">
+             <img src="img/Icon/ask question.svg" alt="">
+              <h1>Ask Your Teacher</h1>
+              <p>Get your doubts solved within our platform</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="service-overview">
+              <img src="img/Icon/Practice Contest.svg" alt="">
+              <h1>Practice Conterst</h1>
+              <p>Instant scores, explanations and leaderboards!</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="service-overview">
+              <img src="img/Icon/Lecture sheet.svg" alt="">
+              <h1>Lecture sheet</h1>
+              <p>Access our lecture sheets and interactive books</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="service-overview">
+              <img src="img/Icon/Contest Leaderboard.svg" alt="">
+              <h1>Contest Leaderboard</h1>
+              <p>See where you stand among your friends</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center">What you will get from our courses</h1>
+        <p class="text-center">Here are everything you will get from us after completing the course</p>
+        <div class="row">
+          <div class="col-sm-4 col-6">
+            <div class="course-outcome">
+              <i class="fa-solid fa-award"></i>
+              <h1>Course Certificate</h1>
+              <p>Everyone will get a course completion certificate which can be scanned and verified from our website. You can download the soft copy of the certificate online and the printed copy will be delivered to your address.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="course-outcome">
+              <i class="fa-solid fa-chalkboard-user"></i>
+              <h1>Opportunity to work with us</h1>
+              <p>Among those who will do well in the course, 3 people will be screened and given the opportunity of paid internship in our company. Also, you will get the opportunity to work directly with Sorowar Mahabub, the CEO & founder of <span class="brand-title">চলো, Programming শিখি </span>.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-6">
+            <div class="course-outcome">
+               <i class="fa-solid fa-universal-access"></i>
+              <h1>Lifetime course access</h1>
+              <p>Those who purchase the course once, will receive lifetime access to all course content and will continue to receive all future updates. In addition, you will have lifetime access to the private group where we will try to answer your questions.</p>
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
 
   <section id="Coursel_Card">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
         </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
 
 
 
-    <section id="Main_Review">
-        <div class="container ratio ratio-21x9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/51BKTMOlINU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        
-    </section>
+  <section id="Main_Review">
+    <div class="container ratio ratio-21x9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/51BKTMOlINU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+  </section>
 
 
-    <section id="team">
-      <ul class="one">
-        <li class="transition">
-          <div class="wrapper">
-            <img class="transition" src="img/mine/120X120 Resize.png" />
-            <ul class="social">
-              <li>
-                Young artist from Barcelona. She hates Comic Sans. <br />
-                Find her on:
-              </li>
-              <li class="transition">
-                <a href="https://twitter.com/SOROwar_Mahabub"
-                  ><i class="fa-brands fa-twitter"></i
-                ></a>
-              </li>
-              <li class="transition">
-                <a href="https://www.facebook.com/sorowar.cse/"
-                  ><i class="fa-brands fa-facebook"></i
-                ></a>
-              </li>
-              <li class="transition">
-                <a href="https://www.linkedin.com/in/sorowar-cse/"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
-              </li>
-            </ul>
-            <span class="transition">
-              <h3>Sorowar Mahabub<em>CEO & Founder || Head Insrtructor</em></h3>
-              <img src="http://dooreight.com/codepen/people/more.svg" />
-            </span>
-          </div>
-        </li>
-       
-      </ul>
-    </section>
-    </main>
+  <section id="team">
+    <ul class="one">
+      <li class="transition">
+        <div class="wrapper">
+          <img class="transition" src="img/mine/120X120 Resize.png" />
+          <ul class="social">
+            <li>
+              Young artist from Barcelona. She hates Comic Sans. <br />
+              Find her on:
+            </li>
+            <li class="transition">
+              <a href="https://twitter.com/SOROwar_Mahabub"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="transition">
+              <a href="https://www.facebook.com/sorowar.cse/"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="transition">
+              <a href="https://www.linkedin.com/in/sorowar-cse/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+          <span class="transition">
+            <h3>Sorowar Mahabub<em>CEO & Founder || Head Insrtructor</em></h3>
+            <img src="http://dooreight.com/codepen/people/more.svg" />
+          </span>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+  </main>
 
 
-  </body>
+</body>
+
 </html>

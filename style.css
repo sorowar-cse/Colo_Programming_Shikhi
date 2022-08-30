@@ -1,10 +1,39 @@
 /* goole font link */
 @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500&family=Hind+Siliguri:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 
 * {
     margin: 0px;
     padding: 2px;
+    color: #fff;
+}
+
+h1 {
+   font-family: 'Titillium Web', sans-serif;
+   font-weight: 400;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.gradient-background {
+  background: linear-gradient(302deg,deepskyblue,darkviolet,blue);
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* .dropdown-item {
@@ -23,10 +52,10 @@
   align-items: center;
   justify-content: center;
 }
+
 .banner-text h1{
   font-size: 3rem;
   font-weight: bolder;
-  text-transform: uppercase;
   /* font-family: 'Anek Bangla', sans-serif; */
   font-family: 'Hind Siliguri', sans-serif;
   animation: text-animation 1s;
@@ -34,11 +63,11 @@
 }
 .banner-text p{
   font-size: 1rem;
-  color: #003f5c;
+  color: #FEE6C4;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .brand-title{
-  color: #ff6361
+  color: #FDCF45;
 }
 .banner-img img{
   width: 100%;
@@ -56,10 +85,47 @@
     margin-left: -25px;
 }
 
+/* Code for service-overview Part  */
 
+.service-overview, .course-outcome{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
 
+.service-overview {
+  height: 200px;
+}
 
+.course-outcome {
+  height: 400px;
+}
+.service-overview:hover, .course-outcome:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
 
+.service-overview h1, .course-outcome h1 {
+  font-size: 22px;
+  color: #003f5c;
+}
+
+.service-overview p, .course-outcome p {
+  /* font-size: 16px; */
+  color: #000;
+}
+
+i {
+  color: #8199f3;
+  font-size: 70px;
+}
 
 
 
