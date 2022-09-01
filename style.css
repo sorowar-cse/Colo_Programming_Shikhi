@@ -554,3 +554,16 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
       height: auto;
   }
 }
+
+
+
+
+
+/* Courses Page  */
+
+.main-baner-cls {
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
