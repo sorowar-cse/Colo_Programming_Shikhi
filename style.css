@@ -388,10 +388,13 @@ i {
 .team-card-2 {
   margin-top: 995px;
 }
-
+.team-card{
+  margin-bottom: 50px;
+}
 .team-card img {
-  margin-top: -150px;
+  margin-top: -100px;
   border-radius: 100%;
+  width: 200px
 }
 .team-card span {
   color: #8199f3;
