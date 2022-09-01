@@ -373,6 +373,12 @@ i {
   padding: 10px;
   width: 100%;
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.team-card {
+  height: 400px;
+  margin-top: 100px;
 }
 
 .team-card-hr {
@@ -387,11 +393,13 @@ i {
   margin-top: -150px;
   border-radius: 100%;
 }
-
+.team-card span {
+  color: #8199f3;
+}
 .our-team {
   margin-top: 250px;
 }
-#our-full-team h1 {
+#our-full-team h1, #history-mission h1 {
   color: #FDCF45;
   font-size: 54px;
   font-weight: bolder;
@@ -399,6 +407,29 @@ i {
 .head p {
   margin-top: -20px;
 }
+.team-social-icons a {
+  text-decoration: none;
+  /* font-size: 12px; */
+  /* margin-right: 35px; */
+  /* color: #ababab; */
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.team-social-icons a:hover {
+  color: #ff004f;
+  transform: translate(-5px);
+}
+
+.team-social-icons i {
+  /* text-decoration: none; */
+  font-size: 24px;
+  margin-right: 35px;
+  color: #8199f3 ;
+  /* display: inline-block; */
+}
+
+
 .head img {
   margin-top: -250px;
   border-radius: 100%;
