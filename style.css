@@ -421,7 +421,7 @@ i {
 .head p {
   margin-top: -20px;
 }
-.team-social-icons a {
+.team-social-icons a,.footer-social-icons a {
   text-decoration: none;
   /* font-size: 12px; */
   /* margin-right: 35px; */
@@ -430,7 +430,7 @@ i {
   transition: transform 0.5s;
 }
 
-.team-social-icons a:hover {
+.team-social-icons a:hover ,.footer-social-icons a:hover {
   color: #ff004f;
   transform: translate(-5px);
 }
@@ -608,23 +608,17 @@ footer {
   color: #FDCF45;
 }
 .footer-links li{
+  list-style: none;
   margin-left: -30px;
 }
 .footer-bottom{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.footer-social ul{
-  display: flex;
-  justify-content: space-between;
-}
-.footer-social li,.footer-links li{
-  list-style: none;
-}
-.footer-social li{
-  margin-right: 10px;
-}
-.footer-social i{
-  color: #fff;
-  font-size: 20px;
+
+.footer-social-icons i {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #ffffff ;
 }
