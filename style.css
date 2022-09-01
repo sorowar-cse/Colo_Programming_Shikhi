@@ -375,6 +375,17 @@ i {
   margin-bottom: 30px;
   text-align: center;
 }
+.head {
+  background: #084869;
+}
+
+.team-card:hover, .head:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Developer {
+  background: #044565;
+}
 
 .team-card {
   height: 400px;
@@ -402,7 +413,7 @@ i {
 .our-team {
   margin-top: 250px;
 }
-#our-full-team h1, #history-mission h1 {
+#our-full-team h1, #history-mission h1, .Developer h1 {
   color: #FDCF45;
   font-size: 54px;
   font-weight: bolder;
