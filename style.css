@@ -375,13 +375,29 @@ i {
   margin-bottom: 30px;
 }
 
+.team-card-hr {
+  margin-bottom: 95px;
+}
+
+.team-card-2 {
+  margin-top: 995px;
+}
+
 .team-card img {
-  margin-top: -35px;
+  margin-top: -150px;
   border-radius: 100%;
 }
 
 .our-team {
   margin-top: 250px;
+}
+#our-full-team h1 {
+  color: #FDCF45;
+  font-size: 54px;
+  font-weight: bolder;
+}
+.head p {
+  margin-top: -20px;
 }
 .head img {
   margin-top: -250px;
