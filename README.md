@@ -1,6 +1,3 @@
-# Colo_Programming_Shikhi
-
-
 # Welcome To চলো, Programming শিখি 
 
 
