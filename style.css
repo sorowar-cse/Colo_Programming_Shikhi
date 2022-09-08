@@ -654,3 +654,68 @@ footer {
   margin-right: 5px;
   color: #ffffff ;
 }
+
+
+
+/* Animation for bubble  */
+.bubbles img {
+  width: 50px;
+  animation: bubble 4s linear infinite;
+}
+
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -100px;
+}
+
+@keyframes bubble{
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-99vh);
+    opacity: 0;
+  }
+}
+
+.bubbles img:nth-child(1) {
+  animation-delay: 2s;
+  width: 25px;
+}
+.bubbles img:nth-child(2) {
+  animation-delay: 1s;
+}
+.bubbles img:nth-child(3) {
+  animation-delay: 3s;
+  width: 25px;
+}
+.bubbles img:nth-child(4) {
+  animation-delay: 2.5s;
+}
+.bubbles img:nth-child(5) {
+  animation-delay: 1.5s;
+}
+.bubbles img:nth-child(6) {
+  animation-delay: 3.5s;
+  width: 20px;
+}
+.bubbles img:nth-child(7) {
+  animation-delay: 2s;
+  width: 35px;
+}
+
+
+
+
+
