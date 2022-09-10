@@ -201,6 +201,18 @@ i {
 }
 
 
+@media screen and (max-width: 768px) {
+  
+  .service-overview {
+    height: 250px;
+  }
+  
+  .course-outcome {
+    height: 300px;
+  }
+  
+  }
+
 
 
 
@@ -875,6 +887,7 @@ marquee,
 .ifr iframe {
  height: 2100px;
 }
+
 
 
 }
