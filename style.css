@@ -204,11 +204,11 @@ i {
 @media screen and (max-width: 768px) {
   
   .service-overview {
-    height: 250px;
+    height: 300px;
   }
   
   .course-outcome {
-    height: 300px;
+    height: 325px;
   }
   
   }
