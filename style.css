@@ -813,6 +813,12 @@ marquee,
   font-weight: bold;
 }
 
+.ifr iframe {
+  background: #003f5c;
+  padding: 15px;
+  height: 2250px;
+}
+
 .reg-title h2 {
   color: #fff;
   font-size: 6em;
@@ -857,4 +863,18 @@ marquee,
         100% 100%,
         0% 100%);
   }
+}
+
+
+@media screen and (max-width: 768px) {
+.reg-title h2 {
+  font-size: 2.5em;
+  margin-left: 210px;
+}
+
+.ifr iframe {
+ height: 2100px;
+}
+
+
 }
