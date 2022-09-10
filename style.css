@@ -148,6 +148,10 @@ p {
   color: #003f5c;
 }
 
+.support-left img {
+  width: 450px;
+}
+
 
 
 
@@ -202,16 +206,19 @@ i {
 
 
 @media screen and (max-width: 768px) {
-  
+
   .service-overview {
     height: 300px;
   }
-  
+
   .course-outcome {
     height: 325px;
   }
-  
+
+  .support-left img {
+    width: 325px;
   }
+}
 
 
 
@@ -518,6 +525,30 @@ i {
 .head img {
   margin-top: -250px;
   border-radius: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .head img {
+    width: 90%;
+  }
+
+  .team-social-icons i {
+    font-size: 20px;
+  }
+
+  #our-full-team h1,
+  .Developer h1 {
+    font-size: 40px;
+  }
+
+  .head {
+    height: 550px;
+  }
+
+  .team-card {
+    height: 425px;
+  }
 }
 
 
@@ -879,14 +910,14 @@ marquee,
 
 
 @media screen and (max-width: 768px) {
-.reg-title h2 {
-  font-size: 1.8em;
-  margin-left: 170px;
-}
+  .reg-title h2 {
+    font-size: 1.8em;
+    margin-left: 170px;
+  }
 
-.ifr iframe {
- height: 2100px;
-}
+  .ifr iframe {
+    height: 2100px;
+  }
 
 
 
