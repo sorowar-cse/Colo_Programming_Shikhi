@@ -482,10 +482,15 @@ i {
 }
 
 #our-full-team h1,
-#history-mission h1,
-.Developer h1 {
+#history-mission h1{
   color: #FDCF45;
   font-size: 54px;
+  font-weight: bolder;
+}
+
+.Developer h1 {
+  color: #FDCF45;
+  font-size: 45px;
   font-weight: bolder;
 }
 
@@ -551,6 +556,10 @@ i {
     height: 425px;
   }
 
+  .ta {
+    width: 100%;
+    height: 475px;
+      }
   .ta-dev {
 width: 100%;
 height: 450px;
