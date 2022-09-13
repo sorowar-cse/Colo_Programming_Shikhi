@@ -6,7 +6,7 @@
 
 * {
   margin: 0px;
-  padding: 3px;
+  padding: 0px;
   box-sizing: border-box;
   color: #fff;
 }
@@ -73,14 +73,38 @@ p {
   }
 }
 
-/* .dropdown-item {
-    font-size: 12px;
-} */
-
+/* Header  */
+header{
+  background-color: #003f5c;
+  position: sticky;
+  top: 0;
+  padding: 0px;
+  z-index: 999;
+}
+/* Nav Bar */
+nav li{
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-item  a{
+  color: #fff;
+}
+.active {
+  color: #FDCF45;
+}
+.nav-item a:hover {
+  color: #FDCF45;
+}
+.dropdown ul{
+  background-color: #003f5c;
+}
+.dropdown ul a:hover{
+  background-color: #FDCF45;
+  color: #000;
+}
 #navbarNavDropdown {
   justify-content: right;
 }
-
 
 /* HOME SECTION CSS CODE START HERE */
 #home {
