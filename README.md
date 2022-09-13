@@ -5,7 +5,7 @@
 
 
 # Sorowar Mahabub
-CEO & Founder, চলো, Programming শিখি || Teaching Assistant(TA) || Pursuing B.Sc in CSE || International Islamic University Chittagong (IIUC)
+CEO & Founder, [চলো, Programming শিখি ](https://sorowar-cse.github.io/Colo_Programming_Shikhi/index.html)|| Teaching Assistant(TA) || Pursuing B.Sc in CSE || International Islamic University Chittagong (IIUC)
 
 # 01521564157 (Mobile)
 
