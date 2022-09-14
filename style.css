@@ -92,13 +92,10 @@ nav li{
 .active {
   color: #FDCF45;
 }
-.nav-item a:hover {
-  color: #FDCF45;
-}
 .dropdown ul{
   background-color: #003f5c;
 }
-.dropdown ul a:hover{
+.dropdown ul a:hover,.nav-item a:hover{
   background-color: #FDCF45;
   color: #000;
 }
