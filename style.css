@@ -57,6 +57,7 @@ p {
   background: linear-gradient(302deg, deepskyblue, darkviolet, blue);
   background-size: 180% 180%;
   animation: gradient-animation 9s ease infinite;
+  -webkit-animation: gradient-animation 9s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -75,10 +76,11 @@ p {
 
 /* Header  */
 header{
-  background-color: #003f5c;
+  background: linear-gradient(302deg, rgb(8, 107, 139), rgb(108, 8, 133), rgb(35, 35, 213));
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
   position: sticky;
   top: 0;
-  padding: 0px;
   z-index: 999;
 }
 /* Nav Bar */
@@ -93,7 +95,7 @@ nav li{
   color: #FDCF45;
 }
 .dropdown ul{
-  background-color: #003f5c;
+  background-color: darkviolet;
 }
 .dropdown ul a:hover,.nav-item a:hover{
   background-color: #FDCF45;
@@ -114,8 +116,8 @@ nav li{
 .banner-text h1 {
   font-size: 3rem;
   font-weight: bolder;
-  /* font-family: 'Anek Bangla', sans-serif; */
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Anek Bangla', sans-serif;
+  /* font-family: 'Hind Siliguri', sans-serif; */
   animation: text-animation 1s;
   -webkit-animation: text-animation 1s;
 }
@@ -141,7 +143,10 @@ nav li{
   width: 100%;
   height: 100%;
 }
-
+#Main_Review{
+  margin-bottom: 20px;
+  padding: 20px;
+}
 /* HOME SECTION CSS CODE END HERE */
 
 
@@ -555,6 +560,22 @@ i {
 
 
 @media screen and (max-width: 768px) {
+  .banner-text{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .banner-image{
+    text-align: center;
+  }
+  #home{
+    height: auto;
+  }
+
+
+
+  #Support_Group{
+    text-align: center;
+  }
   .head img {
     width: 90%;
   }
@@ -716,9 +737,10 @@ height: 450px;
 /* Footer */
 
 footer {
-  background: #003f5c;
+  background: rgb(108, 8, 133);
   color: #fff;
   font-size: 14px;
+  padding: 20px;
 }
 
 .footer-title h1 {
