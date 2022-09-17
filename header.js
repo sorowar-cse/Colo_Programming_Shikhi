@@ -29,20 +29,6 @@ header.innerHTML=`
         </ul>
       </li>
 
-      // <li class="nav-item dropdown">
-      //   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      //     Admission
-      //   </a>
-      //   <ul class="dropdown-menu">
-      //     <li><a class="dropdown-item" href="#">Overview</a></li>
-      //     <li><a class="dropdown-item" href="#">Admission Time</a></li>
-      //     <li><a class="dropdown-item" href="#">Apply Now</a></li>
-      //     <li><a class="dropdown-item" href="#">Admission Guidline</a></li>
-      //     <li><a class="dropdown-item" href="#">Financial Aid</a></li>
-      //   </ul>
-      // </li>
-
-
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Batches
