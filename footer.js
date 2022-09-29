@@ -58,8 +58,8 @@ footer.innerHTML=`
                         <div class="footer-links">
                             <ul>
                                 <li><a href="">Colo Programming Shikhi</a></li>
-                                <li><a href="">+880 1521-564157</a></li>
-                                <li><a href="">contact@colo-programming-shikhi.com</a></li>
+                                <li><a href="">+880 1961-537181</a></li>
+                                <li><a href="">cp.basic.001@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
