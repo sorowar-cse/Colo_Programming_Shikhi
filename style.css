@@ -1125,3 +1125,67 @@ h4{
 #lt{
     color:#eef;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Batch 04 */
+
+.course-description {
+  /*display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  */
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  */
+}
+.course-description h2{
+  color : black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.bold {
+  font-weight: bolder;
+  color: red;
+  font-size: 20px;
+}
+.bold1 {
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+}
+.course-description p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: black;
+}
+.course-description ul li{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: black;
+}
