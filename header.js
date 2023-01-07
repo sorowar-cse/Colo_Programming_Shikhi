@@ -1,6 +1,6 @@
 let header = document.getElementsByTagName('header')[0];
 header.innerHTML=`
-<marquee behavior="alternate" direction="right" vspace="25%" id="break>
+<marquee behavior="alternate" direction="right" vspace="25%" class="bold">
     <a href="batch-04.html">Batch-04 Registration is open!</a>
 </marquee>
 
