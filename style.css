@@ -1189,3 +1189,12 @@ h4{
   margin-bottom: 10px;
   color: black;
 }
+
+.break a{
+  text-decoration: none;
+  background-color: white;
+  color: red;
+}
+.break a:hover{
+  color: red;
+}
