@@ -75,7 +75,7 @@ p {
 }
 
 /* Header  */
-header{
+nav{
   background: linear-gradient(302deg, rgb(8, 107, 139), rgb(108, 8, 133), rgb(35, 35, 213));
   background-size: 180% 180%;
   animation: gradient-animation 9s ease infinite;

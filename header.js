@@ -1,5 +1,9 @@
 let header = document.getElementsByTagName('header')[0];
 header.innerHTML=`
+<marquee behavior="alternate" direction="right" vspace="25%" id="break>
+<a href="batch-04.html">Batch-04 Registration is open!</a>
+</marquee>
+
 <nav class="navbar navbar-expand-lg">
 <div class="container">
   <a class="navbar-brand" href="index.html">
@@ -53,4 +57,6 @@ header.innerHTML=`
   </div>
 </div>
 </nav>
+
+
 `
