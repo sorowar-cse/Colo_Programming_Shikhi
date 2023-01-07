@@ -36,7 +36,8 @@ header.innerHTML=`
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="batch-01.html">Batch-01 (CP Basic)</a></li>
           <li><a class="dropdown-item" href="batch-02.html">Batch-02 (CP Basic)</a></li>
-          <li><a class="dropdown-item" href="batch-03.html">Batch-03 (CP Basic) (Running)</a></li>
+          <li><a class="dropdown-item" href="batch-03.html">Batch-03 (CP Basic)</a></li>
+          <li><a class="dropdown-item" href="batch-04.html">Batch-04 (CP Basic) (Running)</a></li>
           <li><a class="dropdown-item" href="#">Batch-01 (CP Beginner) (Running)</a></li>
         </ul>
       </li>
